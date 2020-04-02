@@ -1,11 +1,15 @@
 import React from 'react';
-import { BrowserRouter } from 'react-router-dom';
-import EconomicIndicators from './pages/EconomicIndicators';
+import { BrowserRouter, Route, Switch } from 'react-router-dom';
+import EconomicIndicatorsContainer from './pages/EconomicIndicators';
+import NotFound from './pages/404';
 
-function App() {
+const App = () => {
     return (
-        <BrowserRouter basename="/economic-indicators">
-            <EconomicIndicators/>
+        <BrowserRouter>
+            <Switch>
+                <Route exact path="/economic-indicators" component={EconomicIndicatorsContainer} />
+                <Route component={NotFound} />
+            </Switch>
         </BrowserRouter>
     );
 }
