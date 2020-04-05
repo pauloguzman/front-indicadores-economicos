@@ -1,6 +1,6 @@
 import React from 'react';
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
-import EconomicIndicatorsContainer from './pages/EconomicIndicators';
+import EconomicIndicatorsContainer from './pages/EconomicIndicatorsContainer';
 import NotFound from './pages/404';
 
 const App = () => {

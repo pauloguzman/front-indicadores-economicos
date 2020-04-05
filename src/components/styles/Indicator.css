@@ -1,0 +1,22 @@
+.container-indicator {
+    max-height: 140px;
+    max-width: 520px;
+    background-color: blue;
+}
+
+.indicator-body {
+
+}
+
+.indicator-img {
+    max-width: 80px;
+    padding: 5px;
+}
+
+.indicator-info {
+
+}
+
+.indicator-info h1{
+    
+}
